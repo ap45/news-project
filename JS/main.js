@@ -1,7 +1,10 @@
 $(document).ready(function ()
 {
 
-    let url = "https://newsapi.org/v2/top-headlines?sources=google-news-in&apiKey=fd20bf4c34eb4bf4b79aa4a924fda274";
+    //let url = "https://newsapi.org/v2/top-headlines?sources=google-news-in&apiKey=fd20bf4c34eb4bf4b79aa4a924fda274";
+    let url="https://api.currentsapi.services/v1/latest-news?' +
+    'language=us&' +
+    'apiKey=Pko67hRGPaCFJ3ZVoJLaSLESXI8xt2lDcK2AF-AjlkkQZu4p";
   
     /*fetch('https://newsapi.org/v2/top-headlines?sources=google-news-in&apiKey=fd20bf4c34eb4bf4b79aa4a924fda274')
     .then(response => response.json())
