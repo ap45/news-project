@@ -1,4 +1,4 @@
 html5
 css
 javascript
-jquery 
+ 
