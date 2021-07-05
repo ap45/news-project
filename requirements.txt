@@ -1,5 +1,4 @@
 html5
 css
-bootstrap
 javascript
 jquery-3.3.1
