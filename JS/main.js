@@ -2,10 +2,7 @@ $(document).ready(function ()
 {
 
     //let url = "https://newsapi.org/v2/top-headlines?sources=google-news-in&apiKey=fd20bf4c34eb4bf4b79aa4a924fda274";
-    let url="https://api.currentsapi.services/v1/latest-news?' +
-    'language=us&' +
-    'apiKey=Pko67hRGPaCFJ3ZVoJLaSLESXI8xt2lDcK2AF-AjlkkQZu4p";
-  
+    let url ="https://gnews.io/api/v4/search?q=example&token=6d98c4adb1c4615ed397b97308b8d833"
     /*fetch('https://newsapi.org/v2/top-headlines?sources=google-news-in&apiKey=fd20bf4c34eb4bf4b79aa4a924fda274')
     .then(response => response.json())
     .then(data => 
@@ -64,7 +61,7 @@ $(document).ready(function ()
               <div class="col-lg-4 mb-5">
                 <div class="card medium hoverable px-5 py-5">
                   <div class="card-image">
-                    <img src="${latestNews[i].urlToImage}" class="responsive-img mb-2" alt="${latestNews[i].title}" width="80%">
+                    <img src="${latestNews[i].image}" class="responsive-img mb-2" alt="${latestNews[i].title}" width="80%">
                   </div>
                   <div class="card-content">
                     <!-- <span class="card-title activator"><i class="material-icons right">more_vert</i></span> -->
